@@ -7,6 +7,7 @@ namespace Effects
     {
         [SerializeField] private ParticleSystem _clickEffectPrefab;
         [SerializeField] private Camera _camera;
+        [SerializeField] private AudioSource _clip;
 
         private void Update()
         {
@@ -19,6 +20,8 @@ namespace Effects
                 
                 createdEffect.transform.position = worldPosition;
                 createdEffect.Play();
+                
+                _clip.Play();
             }
         }
     }
