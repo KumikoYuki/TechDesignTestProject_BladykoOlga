@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3d4b5f0fa74a01b43840bc5fc7e6206d
+guid: a59c3eecc2577c24097621b74fb5ae9b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Rubik
+  - KZ Supercell-Magic
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
